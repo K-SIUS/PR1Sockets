@@ -13,3 +13,5 @@ Por lo que he podido observar. Una conexión de stream TCP siempre envia los men
 
 Tampoco he encontrado la manera de realizar sincronismo de peticiones entre agentes.
 La semilla aleatoria funciona igual para todos los clientes nuevos conectados, es decir, mandan ayuda siempre a la vez.
+
+También se me ha dificultado el hecho de conectar más de un agente al servidor, he tenido que hacer uso de un esqueleto nuevo al iniciado y hacer uso de la programación con hilos que hasta el momento pensé que no sería necesario.
